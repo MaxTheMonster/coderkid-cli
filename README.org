@@ -13,7 +13,7 @@
 
    (Not including using Go, that was always going to happen).
 
-** TODO list
+** TODO TODO list
    - [ ] Build skeleton for basic commands
      - [ ] download (dl)
      - [ ] read (r)
@@ -36,4 +36,4 @@
 
 ** TODO Future ideas
    - [ ] Have a login, with user history
-   - [ ] User submittable almanacs and tests
+   - [ ] User submittable almanacs and test
