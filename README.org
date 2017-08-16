@@ -1,10 +1,10 @@
-** Coderkid-cli
+* Coderkid-cli
     
-   /Coderkid-cli/ is the command line interface for [[http://coderkid.com][coderkid.com]]
+   /Coderkid-cli/ is the command line interface for [[http://coderkid.com][coderkid.com]].
     
     I aim for this to be an easy way to learn all of the various topics I have on coderkid.com, and and easy interface for testing one's ability.
     
-* Inspiration
+** Inspiration
 
    Much of this project was influenced by [[https://exercism.io][exercism.io]].
 
@@ -13,3 +13,27 @@
 
    (Not including using Go, that was always going to happen).
 
+** TODO list
+   - [ ] Build skeleton for basic commands
+     - [ ] download (dl)
+     - [ ] read (r)
+     - [ ] test (t)
+     - [ ] bug (b)
+   - [ ] Write these tests
+     - [ ] Command tests
+       - [ ] download (dl)
+       - [ ] read (r)
+       - [ ] test (t)
+       - [ ] bug (b)
+     - [ ] Basic functionality
+       - [ ] Welcome message
+   - [ ] Write working commands
+     - [ ] download (dl)
+     - [ ] read (r)
+     - [ ] test (t)
+     - [ ] bug (b)
+   - [ ] Add LICENSE
+
+** TODO Future ideas
+   - [ ] Have a login, with user history
+   - [ ] User submittable almanacs and tests
