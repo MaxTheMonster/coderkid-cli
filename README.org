@@ -1,14 +1,15 @@
-*** Coderkid-cli
+** Coderkid-cli
     
-    _Coderkid-cli_ is the command line interface for [coderkid.com](http://coderkid.com)
+   /Coderkid-cli/ is the command line interface for [[http://coderkid.com][coderkid.com]]
     
     I aim for this to be an easy way to learn all of the various topics I have on coderkid.com, and and easy interface for testing one's ability.
     
-** Inspiration
+* Inspiration
 
-   Much of this project was influenced by [exercism.io](https://exercism.io).
+   Much of this project was influenced by [[https://exercism.io][exercism.io]].
 
    Despite saying this, I had originally come up with this idea before ever being reminded of exercism's handy command-line tool, however, after I began writing this program, I looked to exercism's own implementation for pointers.
    I borrowed much of their program design.
 
    (Not including using Go, that was always going to happen).
+
