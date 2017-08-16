@@ -4,6 +4,14 @@ import (
 	"fmt"
 	"github.com/urfave/cli"
 	"os"
+	"github.com/MaxTheMonster/coderkid/tools"
+)
+
+const (
+	Version = "0.1.0"
+
+	descDownload = "Download specified almanac from coderkid.com"
+	descRead     = "Read specified almanac from coderkid.com"
 )
 
 func main() {
@@ -11,6 +19,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "Coderkid"
 	app.Usage = "A client for interfacing with coderkid.com"
+	app.Version = Version
 	// app.Flags = []cli.Flag {
 	// 	cli.StringFlag{
 	// 		Name: "almanac",
@@ -22,18 +31,14 @@ func main() {
 		{
 			Name:    "download",
 			Aliases: []string{"dl"},
-			Usage:   "Download specified almanac from coderkid.com",
-			Action: func(c *cli.Context) error {
-				return nil
-			},
+			Usage:   descDownload,
+			Action: tools.Download,
 		},
 		{
 			Name:    "read",
 			Aliases: []string{"r"},
-			Usage:   "Read specified almanac from coderkid.com",
-			Action: func(c *cli.Context) error {
-				return nil
-			},
+			Usage:   descRead,
+			Action: tools.Read,
 		},
 	}
 
