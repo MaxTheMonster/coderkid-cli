@@ -5,6 +5,7 @@ import (
 	"github.com/urfave/cli"
 	"os"
 
+	"github.com/MaxTheMonster/coderkid/config"
 	"github.com/MaxTheMonster/coderkid/tools"
 )
 
@@ -13,6 +14,8 @@ const (
 
 	descDownload = "Download specified almanac from coderkid.com"
 	descRead     = "Read specified almanac from coderkid.com"
+	descTest     = "Finds current task and runs according tests."
+	descConfig   = "Generates a config based on user inputted values."
 )
 
 func main() {
@@ -33,13 +36,25 @@ func main() {
 			Name:    "download",
 			Aliases: []string{"dl"},
 			Usage:   descDownload,
-			Action: tools.Download,
+			Action:  tools.Download,
 		},
 		{
 			Name:    "read",
 			Aliases: []string{"r"},
 			Usage:   descRead,
-			Action: tools.Read,
+			Action:  tools.Read,
+		},
+		{
+			Name:    "test",
+			Aliases: []string{"t"},
+			Usage:   descTest,
+			Action:  tools.Test,
+		},
+		{
+			Name:    "config",
+			Aliases: []string{"c"},
+			Usage:   descConfig,
+			Action:  config.Configure,
 		},
 	}
 
