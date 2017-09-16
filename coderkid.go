@@ -5,8 +5,8 @@ import (
 	"github.com/urfave/cli"
 	"os"
 
-	"github.com/MaxTheMonster/coderkid/config"
-	"github.com/MaxTheMonster/coderkid/tools"
+	"github.com/MaxTheMonster/coderkid-cli/config"
+	"github.com/MaxTheMonster/coderkid-cli/tools"
 )
 
 const (
